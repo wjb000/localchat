@@ -83,7 +83,7 @@ def main():
                 target=synthesize_speech, args=(ai_response,)
             )
             synthesis_thread.start()
-            synthesis_thread.join()  # Wait for the TTS to complete before continuing
+            synthesis_thread.join()
 
 
 if __name__ == "__main__":
